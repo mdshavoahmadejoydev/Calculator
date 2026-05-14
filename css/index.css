@@ -1,0 +1,66 @@
+/* commonCss start
+=========================
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+}
+
+/* commonCss end
+=========================
+*/
+
+.container{
+    width: 300px;
+    background: rgb(68, 68, 68);
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px 0 15px 0;
+    border-radius: 20px;
+}
+.container_inside{
+    width: 80%;
+    margin: auto;
+}
+.display_element{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    justify-content: flex-end;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.display_result{
+    background: none;
+    text-align: right;
+    font-size: 20px;
+    outline: none;
+    color: black;
+    border: none;
+}
+/* display end
+=========================
+*/
+.all_buttons{
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    column-gap: 2px;
+    row-gap: 2px;
+}
+.all_buttons button{
+    height: 50px;
+    width: 58px;
+    background: #9c9c9c;
+    border: none;
+    border-radius: 8px;
+}
+.all_buttons button:hover{
+    background-color: beige;
+}
